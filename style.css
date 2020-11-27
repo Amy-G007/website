@@ -1,0 +1,30 @@
+body {
+  color: rgb(178, 34, 34);
+  font-size: 20px;
+  background-color: MediumPurple;
+}
+
+h2 {
+  color: rgb(118, 42 ,74)
+}
+
+p {
+  font-size: 18px;
+  color: black;
+}
+
+header {
+  color: rgb(105, 0, 43);
+  font-family: 'Permanent Marker' , cursive;
+}
+
+section {
+  color: rgb(105, 0, 43);
+  font-family: 'Permanent Marker' , cursive;
+}
+
+footer {
+  color: rgb(150, 49, 91);
+  font-size: 24px;
+  font-family: 'Permanent Marker' , cursive;
+}
