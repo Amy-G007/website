@@ -1,21 +1,42 @@
+/* Website Styles */
+* {
+  font-size: 120%;
+}
+
 body {
-  color: rgb(178, 34, 34);
-  font-size: 20px;
+  color: rgb(118, 42, 74)
+  font-size: 34px;
   background-color: MediumPurple;
+}
+
+h1 {
+  color: rgb(118, 42, 74)
+  font-size: 30px;
+  font-family: comic;
+  text-align:left
 }
 
 h2 {
   color: rgb(118, 42 ,74)
+  font-size: 30px;
+  font-weight: lighter;
+  font-style: italic;
+  font-family: Comic;
 }
 
 p {
   font-size: 18px;
   color: black;
+  font-weight: 900;
+  line-height: 5;
 }
 
-header {
+header h1 {
   color: rgb(105, 0, 43);
-  font-family: 'Permanent Marker' , cursive;
+  font-family: Comic;
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: center;
 }
 
 section {
@@ -23,8 +44,26 @@ section {
   font-family: 'Permanent Marker' , cursive;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+a:visited {
+  color: aqua;
+}
+
+a:focus {
+  color: green;
+}
+
 footer {
   color: rgb(150, 49, 91);
   font-size: 24px;
   font-family: 'Permanent Marker' , cursive;
+  font-weight: 500;
 }
