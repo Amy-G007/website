@@ -6,13 +6,13 @@
 body {
   color: rgb(118, 42, 74)
   font-size: 34px;
-  background-color: MediumPurple;
+  background-color: #CD6155;
+  font-family: 'Texturina' , serif;
 }
 
 h1 {
   color: rgb(118, 42, 74)
   font-size: 30px;
-  font-family: comic;
   text-align:left
 }
 
@@ -21,19 +21,17 @@ h2 {
   font-size: 30px;
   font-weight: lighter;
   font-style: italic;
-  font-family: Comic;
 }
 
 p {
-  font-size: 18px;
+  font-size: 24px;
   color: black;
   font-weight: 900;
-  line-height: 5;
+  line-height: 2;
 }
 
 header h1 {
   color: rgb(105, 0, 43);
-  font-family: Comic;
   font-size: 24px;
   font-weight: lighter;
   text-align: center;
@@ -41,10 +39,10 @@ header h1 {
 
 section {
   color: rgb(105, 0, 43);
-  font-family: 'Permanent Marker' , cursive;
 }
 
 a {
+  color: red
   text-decoration: none;
 }
 
@@ -54,7 +52,8 @@ a:hover {
 }
 
 a:visited {
-  color: aqua;
+  color: rgb(79, 0, 120);
+  text-decoration: none;
 }
 
 a:focus {
@@ -62,8 +61,7 @@ a:focus {
 }
 
 footer {
-  color: rgb(150, 49, 91);
+  color: #62072C;
   font-size: 24px;
-  font-family: 'Permanent Marker' , cursive;
   font-weight: 500;
 }
