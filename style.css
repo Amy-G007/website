@@ -4,17 +4,32 @@
   margin: 0;
   line-height: 1;
   box-sizing: content-box;
-  /* border: 1px solid red; */
 }
 
 body {
   color: rgb(118, 42, 74);
   font-size: 24px;
-  background-color: #CD6155;
+  background-image: url(images/image.jpg);
+  background-size: cover;
   font-family: 'Texturina' , serif;
   text-align: center;
   line-height: 3;
 }
+
+
+/* .container {
+  max-width: 100%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 30% 60%;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.container2 {
+  padding-right: 20%;
+} */
 
 .title {
   font-size: 48px;
@@ -53,16 +68,15 @@ section {
   color: rgb(105, 0, 43);
   border: 20px outset pink;
   outline: 20px solid medium purple;
-  border-radius: 12px;
-  margin: 150px 250px;
-  padding: 25px;
+  border-radius: 12px auto;
+  margin: 100px 150px auto;
+  padding: 25px auto;
   outline-offset: 30px;
   background-color: #9B636F;
-
 }
 
 img {
-  height: 300px;
+  height: 200px;
   border: 10px outset grey;
 }
 
