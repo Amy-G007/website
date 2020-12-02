@@ -1,26 +1,30 @@
 /* Website Styles */
 * {
   font-size: 120%;
+  margin: 0;
+  line-height: 1;
+  box-sizing: content-box;
+  /* border: 1px solid red; */
 }
 
 body {
-  color: rgb(118, 42, 74)
-  font-size: 34px;
+  color: rgb(118, 42, 74);
+  font-size: 24px;
   background-color: #CD6155;
   font-family: 'Texturina' , serif;
+  text-align: center;
+  line-height: 3;
 }
 
-h1 {
-  color: rgb(118, 42, 74)
-  font-size: 30px;
-  text-align:left
+.title {
+  font-size: 48px;
+  text-decoration: underline;
 }
 
-h2 {
-  color: rgb(118, 42 ,74)
-  font-size: 30px;
-  font-weight: lighter;
-  font-style: italic;
+h1, h2 {
+  margin-bottom: 20px;
+  font-size: 34px;
+  font-weight: bold;
 }
 
 p {
@@ -28,17 +32,38 @@ p {
   color: black;
   font-weight: 900;
   line-height: 2;
+  margin: 15px 0;
 }
 
+ul, ol {
+  margin: 15px 0;
+  font-size: 28px;
+}
+
+header {
+  border-bottom: 5px solid #F4CECF;
+}
 header h1 {
   color: rgb(105, 0, 43);
-  font-size: 24px;
+  font-size: 45px;
   font-weight: lighter;
-  text-align: center;
 }
 
 section {
   color: rgb(105, 0, 43);
+  border: 20px outset pink;
+  outline: 20px solid medium purple;
+  border-radius: 12px;
+  margin: 150px 250px;
+  padding: 25px;
+  outline-offset: 30px;
+  background-color: #9B636F;
+
+}
+
+img {
+  height: 300px;
+  border: 10px outset grey;
 }
 
 a {
@@ -57,11 +82,17 @@ a:visited {
 }
 
 a:focus {
-  color: green;
+  color: black;
 }
 
 footer {
   color: #62072C;
   font-size: 24px;
   font-weight: 500;
+}
+
+header,
+footer {
+  padding: 20px;
+  margin: 50px;
 }
