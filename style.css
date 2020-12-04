@@ -90,6 +90,8 @@ p {
   font-weight: 900;
   line-height: 2;
   margin: 15px 0;
+  /* letter-spacing: 1px; */
+  word-spacing: 5px;
 }
 
 ul, ol {
@@ -122,6 +124,7 @@ img {
   height: 400px;
   border: 10px outset grey;
   margin: 3 auto;
+  max-width:100%;
 }
 
 a {
